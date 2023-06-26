@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 15px 125px;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  list-style-type: none;
+  gap: 15px;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
